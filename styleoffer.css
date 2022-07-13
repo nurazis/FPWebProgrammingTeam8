@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Quicksand:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* landing page */
+.navbar {
+  margin: 10px 0px;
+  padding-right: 20px;
+  display: flex;
+  height: 50px;
+  width: auto;
+  background-color: white;
+  box-shadow: none;
+  justify-content: end;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  transition: 1.5s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  margin-right: 20px;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.logo {
+  color: orange;
+  display: flex;
+  margin-right: 600px;
+  align-items: center;
+  font-family: cursive;
+}
+
+.list-login {
+  background-color: orange;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  margin-left: 40px;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+}
+.daftar {
+  margin: auto;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(143, 143, 143, 0.5);
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(126, 87, 87, 0.5);
+}
+.gambar {
+  background-size: cover;
+  background-position: center;
+  height: 199px;
+  width: 299px;
+  border-radius: 5px;
+}
+.content h2 {
+  color: orange;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.book {
+  display: flex;
+  margin: auto;
+  color: white;
+  padding: 12px 22px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.book:hover {
+  color: orange;
+  background-color: white;
+  transition: 1.5s;
+}
+/* Reservasi Page */
+.header {
+  margin: auto;
+  width: 1000px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(126, 87, 87, 0.5);
+}
+.head {
+  height: 200px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+.head h2 {
+  color: orange;
+  padding: 10px;
+  border: 8px solid orange;
+}
+.head-content {
+  margin-top: 20px;
+  padding: 0px 10px 0px 10px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(126, 87, 87, 0.5);
+}
+.head-content p {
+  text-align: justify;
+}
+.reservasi {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1000px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px 2px rgba(126, 87, 87, 0.5);
+}
+.header-res {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.header-res h1 {
+  margin: 0px 5px 0px 5px;
+}
+.line1 {
+  width: 200px;
+  height: 5px;
+  background-color: orange;
+}
+.line2 {
+  width: 720px;
+  height: 5px;
+  background-color: orange;
+}
+.reservasi-body,
+.reservasi-body1 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.inputreservasi {
+  display: flex;
+}
+
+.labelreservasi {
+  display: flex;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.cover {
+  flex: 0 0 300px;
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+}
+
+label {
+  text-shadow: 1px 1px 2px #000000;
+  margin: 20px 0 5px 0;
+}
+
+.reservasi-body p,
+.reservasi-body1 p {
+  align-items: center;
+  color: lightgrey;
+  padding: 0px 5px 0px 5px;
+  margin: 0px 0px 20px 0px;
+  height: 40px;
+  width: 600px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+}
+input {
+  height: 40px;
+  width: 600px;
+  margin: auto;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0px;
+}
+.tombol {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit {
+  display: flex;
+  margin: 10px auto;
+  color: white;
+  padding: 12px 22px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.submit:hover {
+  color: orange;
+  background-color: white;
+  transition: 1.5s;
+}
+.balik {
+  color: white;
+  height: 40px;
+  width: 100px;
+  padding: 12px 22px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.balik:hover {
+  color: orange;
+  background-color: white;
+  transition: 1.5s;
+}
+.bayar {
+  height: 40px;
+  width: 400px;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+}
+
+.cover3 {
+  flex: 0 0 400px;
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: auto;
+  height: auto;
+  box-shadow: 2px 4px 8px 2px rgba(126, 87, 87, 0.5);
+  border-radius: 5px;
+}
+.box h2 {
+  margin-top: -18px;
+  margin-left: 20px;
+  color: orange;
+  opacity: 0.8;
+}
+.struk {
+  height: 30px;
+  width: 300px;
+  margin: 0;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+}
+
+.active {
+  color: orange;
+  text-shadow: 1px 1px 2px #000000;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 10px;
+  background-color: lightgray;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer p {
+  color: grey;
+  font-size: 18px;
+  margin: auto;
+}
+
+.cover-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cover2 {
+  flex: 0 0 400px;
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    max-width: 500px;
+  }
+
+  .head-content {
+    height: auto;
+  }
+
+  .reservasi {
+    max-width: 500px;
+  }
+
+  .reservasi-body1 {
+    max-width: 500px;
+  }
+
+  .cover {
+    max-width: 50%;
+  }
+
+  .cover-1 {
+    max-width: 500px;
+  }
+
+  .cover2 {
+    width: 100%;
+  }
+
+  .reservasi-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .reservasi-body .uang {
+    display: flex;
+  }
+
+  
+
+}

@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Quicksand:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* landing page */
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: none;
+}
+
+.menunavbar {
+  flex: 80%;
+  margin: 10px 0px;
+  padding-right: 20px;
+  display: flex;
+  height: 50px;
+  width: auto;
+  justify-content: end;
+}
+
+.menunavbar a:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  transition: 1.5s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  margin-right: 20px;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.active {
+  color: orange;
+  text-shadow: 1px 1px 2px #000000;
+  font-weight: bold;
+}
+
+.logo {
+  flex: 20%;
+  color: orange;
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+  justify-content: center;
+}
+
+.list-login {
+  background-color: orange;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  margin: 10px;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 20px;
+  color: white;
+}
+.wrapper {
+  min-height: 500px;
+  width: 1000px;
+  border: 1px solid rgba(126, 87, 87, 0.5);
+  background-color: lightgrey;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(126, 87, 87, 0.5);
+}
+.container {
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 900px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(126, 87, 87, 0.5);
+}
+.judul {
+  height: fit-content;
+  width: 100%;
+  padding-left: 43%;
+  padding-right: 40%;
+  margin-bottom: 20px;
+  background-color: orange;
+}
+.gambar {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+.gambar h3 {
+  margin: auto;
+  border: 5px solid orange;
+  padding: 5px;
+  color: orange;
+}
+.book {
+  color: white;
+  padding: 12px 22px;
+  margin-right: 20px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.book:hover {
+  color: orange;
+  background-color: white;
+  transition: 1.5s;
+}
+.footer {
+  padding: 10px;
+  background-color: lightgray;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer p {
+  color: grey;
+  font-size: 18px;
+  margin: auto;
+}
+/*-------------------- Rincian -------------------------*/
+.header {
+  margin: auto;
+  width: 1000px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(126, 87, 87, 0.5);
+}
+.head {
+  height: 200px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+.head h2 {
+  color: orange;
+  padding: 10px;
+  border: 8px solid orange;
+}
+.head-content {
+  margin-top: 20px;
+  padding: 0px 10px 0px 10px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(126, 87, 87, 0.5);
+}
+.head-content p {
+  text-align: justify;
+}
+.rincian {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1000px;
+  min-height: 600px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px 2px rgba(126, 87, 87, 0.5);
+}
+.header-rin {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+}
+.header-rin h1 {
+  margin: 0px 5px 0px 5px;
+}
+.line1 {
+  width: 200px;
+  height: 5px;
+  background-color: orange;
+}
+.line2 {
+  width: 720px;
+  height: 5px;
+  background-color: orange;
+}
+.rincian-body {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.cover3 {
+  flex: 0 0 400px;
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: auto;
+  height: auto;
+  box-shadow: 2px 4px 8px 2px rgba(126, 87, 87, 0.5);
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+.box h2 {
+  margin-top: -18px;
+  margin-left: 20px;
+  color: orange;
+  opacity: 0.8;
+}
+
+input[type=date] {
+  background-color: white;
+}
+
+input {
+  height: 40px;
+  width: 600px;
+  margin: auto;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+}
+.inputreservasi {
+  display: flex;
+}
+
+.labelreservasi {
+  display: flex;
+}
+.rinci {
+  height: 30px;
+  width: 300px;
+  margin: 0;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  border: 3px solid lightgrey;
+}
+.rincian .kembali {
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+  height: 50px;
+  width: 100px;
+  padding: 12px 22px;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  /* responsive index */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menunavbar {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .nav {
+    justify-content: center;
+    padding: 5px 0;
+  }
+
+  .list-login {
+    margin: 10px auto;
+  }
+
+  .judul h2 {
+    text-align: center;
+  }
+
+  .wrapper {
+    max-width: 500px;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 500px;
+  }
+  .container h4 {
+    margin: 0 5px;
+  }
+
+  .rincian {
+    max-width: 500px;
+  }
+
+  .header {
+    max-width: 500px;
+    height: auto;
+  }
+
+  .head-content {
+    height: auto;
+  }
+}
